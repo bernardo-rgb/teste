@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc && npx tailwindcss -i ./src/styles.css -o ./dist/styles.css",
-    "start": "http-server src/index.html"
+    "start": "http-server . -p 8080"
   },
   "devDependencies": {
     "http-server": "^14.1.1",
